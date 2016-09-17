@@ -72,7 +72,7 @@ for req in $(cat requirements.txt); do pip install $req; done
 Add the module directory to your `$PYTHONPATH` by 
 
 ```bash
-export PYTHONPATH=<caffe-home>/python:$PYTHONPATH
+export PYTHONPATH=`pwd`:$PYTHONPATH
 ```
 
 # Test Run
