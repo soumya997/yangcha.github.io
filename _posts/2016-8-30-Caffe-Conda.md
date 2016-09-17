@@ -80,10 +80,11 @@ export PYTHONPATH=`pwd`${PYTHONPATH:+:${PYTHONPATH}}
 First verify the installation:
 
 ```bash
+python -c "import opencv;print opencv.__version__"
 python -c "import caffe;print caffe.__version__"
 ```
 
-If the Caffe version number is shown, then change directory to `examples`, execute command:
+If the Caffe version number is shown up correctly, then change directory to `examples`, execute command:
 
 ```bash
 jupyter notebook
