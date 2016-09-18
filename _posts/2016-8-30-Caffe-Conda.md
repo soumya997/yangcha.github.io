@@ -80,7 +80,6 @@ export PYTHONPATH=`pwd`${PYTHONPATH:+:${PYTHONPATH}}
 First verify the installation:
 
 ```bash
-python -c "import cv2;print cv2.__version__"
 python -c "import caffe;print caffe.__version__"
 ```
 
