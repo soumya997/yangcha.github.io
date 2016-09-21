@@ -16,7 +16,6 @@ Download Anaconda from [here](https://www.continuum.io/downloads). Choose Python
 
 ```bash
 conda update conda
-conda update anaconda
 ```
 
 If you want to create an environment such as `testcaffe`, execute commands:
