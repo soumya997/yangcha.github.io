@@ -21,7 +21,7 @@ conda update conda
 If you want to create an environment such as `testcaffe`, execute commands:
 
 ```bash
-conda create -n testcaffe python
+conda create -n testcaffe cython scikit-image ipython h5py nose pandas protobuf pyyaml jupyter
 source activate testcaffe
 ```
 
@@ -30,6 +30,7 @@ Install OpenCV:
 ```bash
 conda install -c menpo opencv3
 ```
+If you want to use some packages in the evnviroment, you need to install them in it, otherwise the packages might not find the dependences you installed in the evnviroment.
 
 # Install Dependencies
 
