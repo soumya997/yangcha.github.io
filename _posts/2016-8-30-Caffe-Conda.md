@@ -21,7 +21,7 @@ conda update conda
 If you want to create an environment such as `testcaffe`, execute commands:
 
 ```bash
-conda create -n testcaffe cython scikit-image ipython h5py nose pandas protobuf pyyaml jupyter
+conda create -n testcaffe python
 source activate testcaffe
 ```
 
@@ -30,7 +30,6 @@ Install OpenCV:
 ```bash
 conda install -c menpo opencv3
 ```
-If you want to use some packages in the evnviroment, you need to install them in it, otherwise the packages might not find the dependences you installed in the evnviroment.
 
 # Install Dependencies
 
@@ -66,8 +65,11 @@ make runtest
 If there is no error, then enter `<caffe-home>/python` directory to install Python packages:
 
 ```bash
+conda install cython scikit-image ipython h5py nose pandas protobuf pyyaml jupyter
 for req in $(cat requirements.txt); do pip install $req; done
 ```
+
+If you want to use some packages in the evnviroment, you need to install them in it, otherwise the packages might not find the dependences you installed in the evnviroment.
 
 Add the module directory to your `$PYTHONPATH` by 
 
