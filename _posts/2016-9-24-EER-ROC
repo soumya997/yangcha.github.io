@@ -1,4 +1,8 @@
 ---
 layout: post
-title: How to Compute Equal Error Rate (EER) on ROC Curve
+title: How to compute Equal Error Rate (EER) on ROC curve
 ---
+
+Receiver operating characteristic(ROC) curve is "a graphical plot that illustrates 
+the performance of a binary classifier system as its discrimination threshold is varied" 
+(see [wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic).
