@@ -18,3 +18,11 @@ The solution is to excute this command in Docker instance:
 ```bash
 ln -s /usr/lib/x86_64-linux-gnu/libcudnn.so.4 /usr/lib/x86_64-linux-gnu/libcudnn.so
 ```
+
+For devel verison, the following instructions are needed:
+
+```bash
+cd /usr/local/cuda/lib64/stubs
+export LD_LIBRARY_PATH=`pwd`${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+ln -s libcuda.so libcuda.so.1
+```
