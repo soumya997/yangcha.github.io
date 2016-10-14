@@ -22,7 +22,6 @@ ln -s /usr/lib/x86_64-linux-gnu/libcudnn.so.4 /usr/lib/x86_64-linux-gnu/libcudnn
 For devel verison, the following instructions are needed:
 
 ```bash
-cd /usr/local/cuda/lib64/stubs
+cd /usr/local/nvidia/lib64
 export LD_LIBRARY_PATH=`pwd`${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-ln -s libcuda.so libcuda.so.1
 ```
