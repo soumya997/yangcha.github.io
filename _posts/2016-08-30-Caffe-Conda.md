@@ -62,11 +62,13 @@ make install
 make runtest
 ```
 
-If there is no error, then enter `<caffe-home>/python` directory to install Python packages:
+If there is compilation error in the last step, then enter `<caffe-home>/python` directory to install Python packages:
 
 ```bash
 conda install cython scikit-image ipython h5py nose pandas protobuf pyyaml jupyter
 for req in $(cat requirements.txt); do pip install $req; done
+cd ../build
+make runtest
 ```
 
 If you want to use some packages in the evnviroment, you need to install them in it, otherwise the packages might not find the dependences you installed in the evnviroment.
@@ -74,6 +76,7 @@ If you want to use some packages in the evnviroment, you need to install them in
 Add the module directory to your `$PYTHONPATH` by 
 
 ```bash
+cd ../python
 export PYTHONPATH=`pwd`${PYTHONPATH:+:${PYTHONPATH}}
 ```
 
