@@ -71,7 +71,7 @@ cd ../build
 make runtest
 ```
 
-If you want to use some packages in the evnviroment, you need to install them in it, otherwise the packages might not find the dependences you installed in the evnviroment.
+If you want to use some other packages in the Conda evnviroment, you need to install them now, otherwise the packages might not find the dependences you installed in the evnviroment.
 
 Add the module directory to your `$PYTHONPATH` by 
 
