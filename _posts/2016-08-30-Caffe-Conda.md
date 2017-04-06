@@ -59,10 +59,9 @@ cd build
 cmake ..
 make all
 make install
-make runtest
 ```
 
-If there is compilation error in the last step, then enter `<caffe-home>/python` directory to install Python packages:
+Enter `<caffe-home>/python` directory to install Python packages:
 
 ```bash
 conda install cython scikit-image ipython h5py nose pandas protobuf pyyaml jupyter
