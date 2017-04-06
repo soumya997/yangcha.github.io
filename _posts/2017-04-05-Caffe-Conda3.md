@@ -59,7 +59,6 @@ cd build
 cmake -D python_version=3 ..
 make all
 make install
-make runtest
 ```
 
 Enter `<caffe-home>/python` directory to install Python packages:
