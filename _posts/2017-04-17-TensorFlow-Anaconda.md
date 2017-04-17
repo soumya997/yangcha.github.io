@@ -14,11 +14,11 @@ If you want to use GPU to accelerate, follow instructions [here]({% post_url 201
 
 # Install Anaconda
 
-Download Anaconda from [here](https://www.continuum.io/downloads). Choose Python 2.7 or 3.6 version 64-BIT INSTALLER to install it. Then update it:
+Download Anaconda from [here](https://www.continuum.io/downloads). Choose Python 2.7 or 3.6 version 64-BIT INSTALLER to install it, then update it:
 
 ```bash
 conda update conda
 ```
 
-Then install TensorFlow following the instructions [here](https://www.tensorflow.org/install/install_linux#InstallingAnaconda).
+Install TensorFlow following the instructions [here](https://www.tensorflow.org/install/install_linux#InstallingAnaconda).
 
