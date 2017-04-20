@@ -32,7 +32,7 @@ If you want to connect to Jupyter Notebook on a remote server in order to run Py
 ssh -L 8080:localhost:8888 username@server_address
 ```
 
-If the client machine OS is Windows, you may install [mobaxterm](http://mobaxterm.mobatek.net/) first, then run the above command in mobaxterm local terminal. Here port number 8080 can be any number. Or if you prefer [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/), you may run the following command in Windows Command Prompt (cmd.exe):
+If the client machine OS is Windows, you may install [mobaxterm](http://mobaxterm.mobatek.net/) first, then run the above command in mobaxterm local terminal. Here port number 8080 can be any number. Or if you prefer [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/), you may run the following command in Windows Command Prompt (cmd.exe) and keep cmd.exe running:
 
 ```dos
 plink -ssh -L 8080:localhost:8888 username@server_address
