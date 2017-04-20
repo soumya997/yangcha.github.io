@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Install TensorFlow With Anaconda
+date:   2017-04-17
 ---
 
 [Anaconda = Package Manager + Environment Manager + Additional Scientific Libraries](http://stackoverflow.com/questions/38217545/the-different-between-pyenv-virtualenv-anaconda-in-python). Based on my experience, it makes the python package management much easier. Also conda is a general-purpose package management system, it is designed to manage packages and dependencies of software from any language.  
