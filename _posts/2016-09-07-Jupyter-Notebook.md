@@ -32,14 +32,21 @@ If you want to connect to Jupyter Notebook on a remote server in order to run Py
 ssh -L 8080:localhost:8888 username@server_address
 ```
 
-If the client machine OS is Windows, you may install [mobaxterm](http://mobaxterm.mobatek.net/) first, then run the above command in mobaxterm. Here port number 8080 can be any number.
+If the client machine OS is Windows, you may install [mobaxterm](http://mobaxterm.mobatek.net/) first, then run the above command in mobaxterm local terminal. Here port number 8080 can be any number.
 
-Once SSH tunneling is established, you can connect to the remote Jupyter Notebook. Open a persistent terminal byobu on server, and run command:
+Once SSH tunneling is established, you need to fire up the remote Jupyter Notebook by running command on remote server:
+
+```bash
+nohup jupyter notebook --no-browser > log.txt 2>&1 &
+```
+
+Or open a persistent terminal byobu on remote server, and run command:
 
 ```bash
 byobu
 jupyter notebook --no-browser
 ```
+
 Finally, open `http://localhost:8080` in a web browser on your client machine.
 
 
