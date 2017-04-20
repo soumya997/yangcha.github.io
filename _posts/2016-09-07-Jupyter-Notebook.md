@@ -37,6 +37,7 @@ If the client machine OS is Windows, you may install [mobaxterm](http://mobaxter
 Once SSH tunneling is established, you can connect to the remote Jupyter Notebook. First open a persistent terminal byobu on server, then run command:
 
 ```bash
+byobu
 jupyter notebook --no-browser
 ```
 Finally, open `http://localhost:8080` in a web browser on your client machine.
