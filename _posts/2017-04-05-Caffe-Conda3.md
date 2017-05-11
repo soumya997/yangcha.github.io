@@ -3,7 +3,7 @@ layout: post
 title: Install Caffe With Anaconda (Python 3 version)
 ---
 
-If you want to install [Caffe](http://caffe.berkeleyvision.org/) on Ubuntu 16.04 along with Anaconda3(Python 3.6 version), here is an installation guide:
+If you want to install [Caffe](http://caffe.berkeleyvision.org/) on Ubuntu 16.04 along with Anaconda (Python 3.6 version), here is an installation guide:
 
 
 # Install Nvidia driver and Cuda (Optional)
