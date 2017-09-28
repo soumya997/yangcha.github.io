@@ -4,7 +4,7 @@ title: Install Nvidia CUDA 8 and cuDNN 6
 comments: true
 ---
 
-Many deep learning libraries use Nvidia GPU to accelerate the computation. The [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) needs to install to make use of the GPU. The [NVIDIA CUDA Deep Neural Network library (cuDNN)](https://developer.nvidia.com/cudnn) is a GPU-accelerated library of primitives for deep neural networks which is worth installing.  Current version of CUDA is 9 and current version of cuDNN is 9. But many deep learning libraries have yet to upgrade to the current versions of CUDA and cuDNN. So here I present a way to install CUDA 8 and cuDNN 6. 
+Many deep learning libraries use Nvidia GPU to accelerate the computation. The [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) needs to install to make use of the GPU. The [NVIDIA CUDA Deep Neural Network library (cuDNN)](https://developer.nvidia.com/cudnn) is a GPU-accelerated library of primitives for deep neural networks which is worth installing.  Current version of CUDA is 9 and current version of cuDNN is 7. But many deep learning libraries have yet to upgrade to the current versions of CUDA and cuDNN. So here I present a way to install CUDA 8 and cuDNN 6. 
 
 
 * OS: Ubuntu 16.04 x86_64
