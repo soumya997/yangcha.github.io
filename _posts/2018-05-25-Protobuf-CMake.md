@@ -13,26 +13,26 @@ https://github.com/google/protobuf/blob/master/cmake/README.md) is the instructi
 
 Suppose it is installed under the install location, such as `d:\pgk\protobuf`, the directory structure is as follows:
 
-+---bin
-+---cmake
-+---include
-|   \---google
-|       \---protobuf
-|           +---compiler
-|           |   +---cpp
-|           |   +---csharp
-|           |   +---java
-|           |   +---javanano
-|           |   +---js
-|           |   +---objectivec
-|           |   +---php
-|           |   +---python
-|           |   \---ruby
-|           +---io
-|           +---stubs
-|           \---util
-\---lib
-    \---pkgconfig 
+>+---bin
+>+---cmake
+>+---include
+>|   \---google
+>|       \---protobuf
+>|           +---compiler
+>|           |   +---cpp
+>|           |   +---csharp
+>|           |   +---java
+>|           |   +---javanano
+>|           |   +---js
+>|           |   +---objectivec
+>|           |   +---php
+>|           |   +---python
+>|           |   \---ruby
+>|           +---io
+>|           +---stubs
+>|           \---util
+>\---lib
+>    \---pkgconfig 
 
 
 # CMake
