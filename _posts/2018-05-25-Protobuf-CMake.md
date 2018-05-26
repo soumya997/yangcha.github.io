@@ -51,7 +51,7 @@ protobuf_generate_python(PROTO_PY foo.proto)
 add_executable(bar bar.cc ${PROTO_SRCS} ${PROTO_HDRS})
 target_link_libraries(bar ${Protobuf_LIBRARIES})
 ```
-However, the above CMake script will fail due to "protobuf not found". To let CMake find the installed protobuf package, you can specify the install location as follows:
+However, the above CMake script will fail due to the error: "protobuf not found". To let CMake successfully find the installed protobuf package, you can specify the install location as follows:
 
 ```cmake
 set(CMAKE_PREFIX_PATH
