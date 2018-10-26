@@ -4,8 +4,6 @@ title: CMake and Protocol Buffers on Windows
 comments: true
 ---
 
-# Protocol Buffers
-
 [Protocol buffers](https://developers.google.com/protocol-buffers/) are Google's language-neutral, platform-neutral approach for serializing structured data. 
 
 On linux, you can easily install it using package management. On Windows, you may build it from source and install it. [Here](
