@@ -2,6 +2,7 @@
 layout: post
 title: C++ Template Return Type Deduction from Integer Parameter 
 comments: true
+---
 
 ```
 #include <iostream>
