@@ -14,7 +14,7 @@ comments: true
 **Hi** reader, this is a small and simple guide to RNNs, we will discuss all the basic requirements that you need to get started with RNNs from underneath concepts to code implementation. We will be implementing using TensorFlow 2.0.
 
 
-<script src="https://gist.github.com/benbalter/5555251.js?file=gist.md"></script>
+<script src="https://gist.github.com/soumya997/7ee82d987fd59a5695e8b6b207b62aef.js"></script>
 
 
 <br>
@@ -36,7 +36,7 @@ comments: true
 The R in RNN stands for recurrent which literally means repeating. Now you will think what is repeating here? Here repeating refers to the repeating structure of RNNs. There are different kinds of data available, like normal tabular data with different features, image data,time-series data, text data, etc. From the time series, data and text data are the data which has a sequence in it. Let us discuss the meaning of sequence for text data. It's very noticeable that every sentence has a sequence of words, and if you change the sequence of that sentence then the sentence won't have the same meaning. Because of this reason, we can't use MLPs on text data (there are other reasons too like large parameter size,size of i/p word and o/p word can be different, etc.).
 Now, an RNN has many structures as per the problem requirements like- one to one, one to many, many to one, many to many as fig 1.
 
-{% gist 7ee82d987fd59a5695e8b6b207b62aef gist.md%}
+
 
 ![RNN structure](https://i.imgur.com/AtbnrWR.jpg)
 <h3>Fig: 1</h3>
