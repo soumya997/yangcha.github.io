@@ -116,6 +116,16 @@ from tensorflow.keras.layers import Dense
 
 
 ```
+<html>
+  <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="https://github.com/kashif-umair/gist-embed/raw/feature/show_single_line/gist-embed.js" ></script>
+  </head>
+  <body>
+    <code id="gist-ca6b49b7c7181e916cb78e6d1e526da3" data-file="python_rgb_5.py" data-line="4"></code>
+  </body>
+</html>
+
 
 ## Loading Data Using Pandas:
 
