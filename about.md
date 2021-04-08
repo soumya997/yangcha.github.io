@@ -4,12 +4,12 @@ title: About Me
 permalink: /about/
 ---
 
-I am currently a senior research scientist at Leidos. Here is my notebook I want to share with you. 
+<img src="https://i.ibb.co/ckh7mXd/edited1.png" width="250">
 
+Hi👋, this is Soumyadip Sarkar currently in 3rd-year student.I am experienced in Computer Vision, NLP, Machine Learning, Deep Learning. I have experience with backend development for
+ML/DL models using flask and streamlit. I love participating in Kaggle competitions and different Hackathons. I also like doing Open- Source Contributions and writing blogs.
+I want to be a Data Scientist /ML/DL Engineer, I love Kaggling and making memes.
 
-### Contact me
+Check out my [website😄](https://soumya997.github.io/vcv/)
 
-Changjiang Yang
-
-![Email](https://www.umiacs.umd.edu/~yangcj/email.jpg)
 
