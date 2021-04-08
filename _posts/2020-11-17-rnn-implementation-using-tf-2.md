@@ -541,3 +541,5 @@ Our model is giving nera 90% accurecy which is very good.
 This is how you train a RNN using tensorflow 2.0
 
 Thank you for reading.
+
+{% gist 7ee82d987fd59a5695e8b6b207b62aef %}
