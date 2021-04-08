@@ -6,7 +6,7 @@ comments: true
 
 **Hi** reader, this is a small and simple guide to RNNs, we will discuss all the basic requirements that you need to get started with RNNs from underneath concepts to code implementation. We will be implementing using TensorFlow 2.0.
 
-
+# Indepth RNN and implementation using tf2.x
 
 ![RNN struc](https://i.imgur.com/KXbnThQ.png)
 <br>
