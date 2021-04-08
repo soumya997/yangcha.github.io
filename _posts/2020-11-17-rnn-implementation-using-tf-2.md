@@ -24,7 +24,7 @@ comments: true
 }
 {% endhighlight %}
 
-{% highlight python %}
+```python3
 from tensorflow.keras.layers import Embedding
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
@@ -32,8 +32,7 @@ from tensorflow.keras.preprocessing.text import one_hot
 from tensorflow.keras.layers import SimpleRNN
 from tensorflow.keras.layers import Dropout
 from tensorflow.keras.layers import Dense
-{% endhighlight %}
-
+```
 
 <br>
 # Table of Content:
