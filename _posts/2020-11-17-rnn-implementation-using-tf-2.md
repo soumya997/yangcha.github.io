@@ -16,6 +16,24 @@ comments: true
 
 <script src="https://gist.github.com/soumya997/7ee82d987fd59a5695e8b6b207b62aef.js"></script>
 
+{% highlight css %}
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+{% endhighlight %}
+
+{% highlight python %}
+from tensorflow.keras.layers import Embedding
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.preprocessing.text import one_hot
+from tensorflow.keras.layers import SimpleRNN
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import Dense
+{% endhighlight %}
+
 
 <br>
 # Table of Content:
