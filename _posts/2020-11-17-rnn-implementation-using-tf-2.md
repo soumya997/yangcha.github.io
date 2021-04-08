@@ -13,8 +13,17 @@ comments: true
 
 **Hi** reader, this is a small and simple guide to RNNs, we will discuss all the basic requirements that you need to get started with RNNs from underneath concepts to code implementation. We will be implementing using TensorFlow 2.0.
 
+Content
 
 <script src="https://gist.github.com/soumya997/7ee82d987fd59a5695e8b6b207b62aef.js"></script>
+
+Content
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://github.com/kashif-umair/gist-embed/raw/master/gist-embed.js"></script>
+
+<code id="gist-4672365" data-file="2.java" data-line="2-5,10-14,11,20"></code>
+
 
 {% highlight css %}
 #container {
