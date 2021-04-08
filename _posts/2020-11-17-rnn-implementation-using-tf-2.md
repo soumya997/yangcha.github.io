@@ -1,4 +1,11 @@
-# Indepth RNN and implementation using tf2.x
+---
+layout: post
+title: Indepth RNN and implementation using tf2.x
+comments: true
+---
+
+**Hi** reader, this is a small and simple guide to RNNs, we will discuss all the basic requirements that you need to get started with RNNs from underneath concepts to code implementation. We will be implementing using TensorFlow 2.0.
+
 
 
 ![RNN struc](https://i.imgur.com/KXbnThQ.png)
