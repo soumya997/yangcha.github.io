@@ -1,30 +1,12 @@
 ---
-title: "How to make your windows terminal look awesome"
-toc: true
-toc_sticky: true
-
-categories:
-  - setup 
-
-
-tags:
-  - windows terminal
-  - oh-my-zsh
-  - oh-my-posh
-  - git-posh
-  - auto-suggestion
-  - powershell
-  - powershell 7
-  - git 
-  - custom font
-  - background image
-
-last_modified_at: 2020-10-01T08:06:00-05:00
-
-
-use_math: true
+layout: post
+title: How to make your windows terminal look awesome
+comments: true
 ---
 
+This is the repo(https://github.com/soumya997/windows-terminal-setup) where i have put my terminal setup files, and mentioned how i did that. I have 6 shells in my windows terminal 
+1. Powershell,
+2. PowerShell 7,
 
 
 # how to make your windows terminal look awesome
