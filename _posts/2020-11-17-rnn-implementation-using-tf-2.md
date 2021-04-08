@@ -13,37 +13,15 @@ comments: true
 
 **Hi** reader, this is a small and simple guide to RNNs, we will discuss all the basic requirements that you need to get started with RNNs from underneath concepts to code implementation. We will be implementing using TensorFlow 2.0.
 
-Content
-
-<script src="https://gist.github.com/soumya997/7ee82d987fd59a5695e8b6b207b62aef.js"></script>
-
-Content
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://github.com/kashif-umair/gist-embed/raw/master/gist-embed.js"></script>
 
 <code id="gist-4672365" data-file="2.java" data-line="2-5,10-14,11,20"></code>
 
-<script src="http://gist-it.appspot.com/github/robertkrimen/gist-it-example/blob/master/example.js?slice=0:1"></script>
 
 
-{% highlight css %}
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-{% endhighlight %}
 
-```python3
-from tensorflow.keras.layers import Embedding
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.preprocessing.text import one_hot
-from tensorflow.keras.layers import SimpleRNN
-from tensorflow.keras.layers import Dropout
-from tensorflow.keras.layers import Dense
-```
 
 <br>
 # Table of Content:
@@ -91,7 +69,7 @@ And at the end, the output of the last RNN cell and the <strong>W''</strong> are
 ## Utils
 
 
-```python
+```python3
 import warnings
 warnings.filterwarnings("ignore")                     #Ignoring unnecessory warnings
 
