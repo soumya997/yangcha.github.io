@@ -15,6 +15,8 @@ comments: true
 
 
 <script src="https://gist.github.com/benbalter/5555251.js?file=gist.md"></script>
+
+
 <br>
 # Table of Content:
 1. **What is RNNs**
